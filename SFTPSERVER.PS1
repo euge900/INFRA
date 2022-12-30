@@ -96,6 +96,7 @@ Remove-WinSCPSession -WinSCPSession $s
 
 
 #Remove file from local workstation.
+Write-host "Removing File from Local Directory."
 $doctoSend | Remove-Item 
 
 

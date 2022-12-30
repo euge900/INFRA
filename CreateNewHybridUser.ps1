@@ -32,7 +32,7 @@ Write-Host "User is being created, wait a couple of seconds and answer any promp
 New-ADUser -Name $name -GivenName $firstname -Surname $lastname -SamAccountName "$firstname.$lastname" -Path $path `
 -Company $company -UserPrincipalName $userprn -AccountPassword $password -Enabled $true -DisplayName $name
 
-
+write-host "Setting up Email address"
 Set-ADUser -Identity "$firstname.$lastname" -Add @{proxyAddresses="SMTP:$userprn"}
 
 
