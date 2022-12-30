@@ -1,0 +1,29 @@
+[33mcommit 2fb3aa542bcc9d6f8aa7d3bca5da0b124b5bbd71[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Eugenio Feliz <eugeniof13@gmail.com>
+Date:   Fri Dec 30 12:06:05 2022 -0500
+
+    First Commit
+
+[33mcommit 8a552cbf2d9c41366997c836b71ffc19de734c53[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: euge900 <72277420+euge900@users.noreply.github.com>
+Date:   Mon Jun 13 21:35:49 2022 -0400
+
+    Add files via upload
+    
+    #Using a PuTTY Private Key connect to your source SFTP server and find a file based on the name and date, if the file exists
+    #it will download it to your local computer while deleting the source file on the source SFTP server. Then Connect to destination
+    #SFTP server and upload the file there, finally delete the file in the local computer and clear recycle bin so there is
+    #no trace of file left and that way comply with HIPAA standards.
+    #You will need to download WinSCP module for these commands to work.
+
+[33mcommit 62482ead0586498ad79655a99a386c41393634c5[m[33m ([m[1;33mtag: NewUser[m[33m)[m
+Author: euge900 <72277420+euge900@users.noreply.github.com>
+Date:   Wed Jun 1 22:13:53 2022 -0400
+
+    Create New Office 365 User
+
+[33mcommit 397b79d83495ab3e5a7959ab7c65bae114982914[m
+Author: euge900 <72277420+euge900@users.noreply.github.com>
+Date:   Wed Jun 1 22:12:06 2022 -0400
+
+    Initial commit
