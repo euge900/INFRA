@@ -1,0 +1,1 @@
+Set-CalendarProcessing -Identity "workplace-reservation" -AutomateProcessing AutoAccept -AllowConflicts $true
