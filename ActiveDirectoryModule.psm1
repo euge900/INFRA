@@ -1,4 +1,11 @@
+#This is a module, a module is used to complete tasks that are very repetitive, things like adding
+#a user to a group, removing a user from all group memberships, getting user's general information and 
+#other activities are below. All you need to do is place this .psm1 file in your PowerShell module path, 
+#which is usually found under 'C:\Program Files\WindowsPowerShell\Modules\NameofCUstomModule' or in path
+#'c:\users\adminaccount\document\windowspowershell\modules\ActiveDirectoryModule\ActiveDirectoryModule.psm1.
 #Get a list of Active directory users with similar naming converntion.
+
+
 function find-user
 {
 param(
