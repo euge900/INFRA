@@ -1,6 +1,5 @@
 #Searched for enabled Active directory users whose samaccountname do not contain "adm", "svc" and description does not say don't delete'
 #also gets accounts with passwordneverexpires property set to false.
-
 $date =  get-date 
 $45ago = $date.AddDays(-45)
 
