@@ -3,7 +3,7 @@
 $date =  get-date 
 $45ago = $date.AddDays(-45)
 
-Get-ADUser -Filter * -SearchBase "OU=Sites,DC=corp,DC=ascriptaway,DC=com" -Properti\\\s SamAccountName,`
+Get-ADUser -Filter * -SearchBase "OU=Sites,DC=corp,DC=ascriptaway,DC=com" -Properties SamAccountName,`
  enabled, ObjectGUID, passwordneverexpires, description, modified, lastlogondate, lastbadpasswordattempt |`
   Where-Object {$_.enabled -eq $true -and $_.DistinguishedName -notlike "*service accounts*" -and $_.description`
 -notlike "*service*" -and $_.samaccountname -notlike "*adm*" -and $_.samaccountname -notlike "*svc*" -and`
